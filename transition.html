@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transition Sample</title>
+	<script type="text/javascript">
+		functiondo Trans()
+		{
+			theImg.filters("blendTrans").Apply();
+			theImg.src="insta-p3.png";
+			theImg.filters("blendTrans").Play();
+		}
+	</script>
+</head>
+<body style="background-color: darkblue">
+
+	<img id=theImg width="200" height="200" src="insta-p8.png" style="width: 300; filter: blendTrans(duration=3)">
+
+	<Input type=button value="Start Transition" onClik="doTrans()">
+</body>
+</html>
